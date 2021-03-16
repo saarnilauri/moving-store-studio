@@ -24,7 +24,7 @@ export default {
     },
     {
       title: 'Part of series',
-      name: 'part_num',
+      name: 'partNum',
       type: 'number'
     },
     {

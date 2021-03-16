@@ -4,8 +4,8 @@
     "name": "AGC CM"
   },
   "api": {
-    "projectId": "PLACEHOLDER_ENV_VARIABLES_WILL_HANDLE_FOR_US",
-    "dataset": "PLACEHOLDER_ENV_VARIABLES_WILL_HANDLE_FOR_US"
+    "projectId": "be9hrejb",
+    "dataset": "production"
   },
   "plugins": [
     "@sanity/base",
