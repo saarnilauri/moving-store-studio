@@ -1,7 +1,10 @@
+import {MdLibraryBooks} from 'react-icons/md';
+
 export default {
   name: 'post',
   title: 'Post',
   type: 'document',
+  icon: MdLibraryBooks,
   fields: [
     {
       name: 'title',

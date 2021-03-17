@@ -1,7 +1,10 @@
+import {BiBook} from 'react-icons/bi';
+
 export default {
   name: 'book',
   title: 'Book',
   type: 'document',
+  icon: BiBook,
   fields: [
     {
       name: 'title',
