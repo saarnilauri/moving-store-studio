@@ -26,6 +26,7 @@ import blockContent from './objects/blockContent'
 import category from './objects/category'
 import author from './objects/author'
 import book from './objects/book'
+import logo from './objects/logo'
 
 // Landing page sections
 import hero from './objects/hero';
@@ -64,7 +65,8 @@ export default createSchema({
     simplePortableText,
     siteConfig,
     textSection,
-    youtube
+    youtube,
+    logo
 
   ]),
 })
