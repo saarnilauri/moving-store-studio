@@ -1,8 +1,8 @@
-# Sanity Blogging Content Studio
+# AGC Children Ministry Content Studio
 
-Congratulations, you have now installed the Sanity Content Studio, an open source real-time content editing environment connected to the Sanity backend.
+AGC Children Ministry site uses the Sanity Content Studio as a content management system.
 
-Now you can do the following things:
+For more research on technical implementation:
 
 - [Read “getting started” in the docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme)
 - Check out the example frontend: [React/Next.js](https://github.com/sanity-io/tutorial-sanity-blog-react-next)

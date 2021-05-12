@@ -8,11 +8,13 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 import page from './documents/page';
 import post from './documents/post'
 import route from './documents/route';
+import lesson from './documents/lesson';
 import siteConfig from './documents/siteConfig';
 
 
 // Object types
 import cta from './objects/cta';
+import youtube from './objects/youtube';
 import embedHTML from './objects/embedHTML';
 import figure from './objects/figure';
 import internalLink from './objects/internalLink';
@@ -44,6 +46,7 @@ export default createSchema({
     book,
     author,
     category,
+    lesson,
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
     blockContent,
@@ -61,6 +64,7 @@ export default createSchema({
     simplePortableText,
     siteConfig,
     textSection,
+    youtube
 
   ]),
 })
