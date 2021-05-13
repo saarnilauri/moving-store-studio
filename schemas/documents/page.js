@@ -32,6 +32,13 @@ export default {
       fieldset: 'metadata',
     },
     {
+      name: 'keywords',
+      type: 'text',
+      title: 'Keywords',
+      description: 'These keywords populate meta-tags on the webpage',
+      fieldset: 'metadata',
+    },
+    {
       name: 'openGraphImage',
       type: 'image',
       title: 'Open Graph Image',
