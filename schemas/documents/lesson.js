@@ -25,6 +25,12 @@ export default {
         source: 'title',
         maxLength: 96,
       },
+      
+    },
+    {
+      title: 'Order number',
+      name: 'orderNum',
+      type: 'number'
     },
     {
       name: 'mainImage',
