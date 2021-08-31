@@ -18,7 +18,28 @@ export default {
         name: 'url',
         type: 'url',
         title: 'YouTube video URL'
-      }
+      },
+      {
+        title: 'Type',
+        name: 'type',
+        type: 'string',
+        options: {
+          list: [
+            { title: 'Music', value: 'music' },
+            { title: 'Instruction', value: 'instruction' },
+          ],
+        },
+      },
+      {
+        title: 'Caption',
+        name: 'caption',
+        type: 'string',
+      },
+      {
+        name: 'text',
+        type: 'portableText',
+        title: 'Text',
+      },
     ],
     preview: {
         select: {
