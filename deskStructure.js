@@ -4,7 +4,7 @@ import { MdDashboard, MdSettings } from "react-icons/md"
 // We filter document types defined in structure to prevent
 // them from being listed twice
 const hiddenDocTypes = listItem =>
-  !['page', 'route', 'site-config'].includes(listItem.getId())
+  !['page', 'route', 'site-config', 'lesson'].includes(listItem.getId())
 
 export default () =>
   S.list()
@@ -19,6 +19,20 @@ export default () =>
         .title('Routes')
         .schemaType('route')
         .child(S.documentTypeList('route').title('Routes')),
+        S.listItem()
+  .title('Lessons By Book')
+  .child(
+    S.documentTypeList('book')
+      .title('Lesson by book')
+      .child(bookId =>
+        S.documentList()
+          .title('Lessons')
+          .filter('_type == "lesson" && $bookId == book._ref')
+          .params({ bookId })
+      )
+  ),
+
+
       ...S.documentTypeListItems().filter(hiddenDocTypes),
       S.listItem()
         .title('Site config')

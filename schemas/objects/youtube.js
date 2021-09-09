@@ -4,9 +4,9 @@ import getYouTubeId from 'get-youtube-id'
 import YouTube from 'react-youtube'
 
 const Preview = ({value}) => {
-	const { url } = value;
+	const { url, caption } = value;
 	const id = getYouTubeId(url);
-	return (id ? <div style={{ position: 'relative', paddingBottom: '56.25%', paddingTop: '30px', height: 0, overflow: 'hidden' }}><YouTube style={ { position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }} videoId={id} /></div> : null)
+	return (id ? <div><span>Video info</span><div style={{ position: 'relative', paddingBottom: '56.25%', paddingTop: '30px', height: 0, overflow: 'hidden' }}><YouTube style={ { position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }} videoId={id} /></div></div> : null)
 }
 
 export default {
