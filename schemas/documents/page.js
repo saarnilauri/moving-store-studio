@@ -22,6 +22,7 @@ export default {
         { type: 'hero' },
         { type: 'imageSection' },
         { type: 'textSection' },
+        { type: 'mainTextSection' },
       ],
     },
     {

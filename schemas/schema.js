@@ -32,6 +32,7 @@ import logo from './objects/logo'
 import hero from './objects/hero';
 import imageSection from './objects/imageSection';
 import textSection from './objects/textSection';
+import mainTextSection from './objects/mainTextSection';
 
 
 // Then we give our schema to the builder and provide the result to Sanity
@@ -64,6 +65,7 @@ export default createSchema({
     route,
     simplePortableText,
     siteConfig,
+    mainTextSection,
     textSection,
     youtube,
     logo
