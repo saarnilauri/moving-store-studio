@@ -16,6 +16,7 @@ import siteConfig from './documents/siteConfig';
 import cta from './objects/cta';
 import youtube from './objects/youtube';
 import embedHTML from './objects/embedHTML';
+import inlineImage from "./objects/inlineImage";
 import figure from './objects/figure';
 import internalLink from './objects/internalLink';
 import link from './objects/link';
@@ -33,6 +34,7 @@ import hero from './objects/hero';
 import imageSection from './objects/imageSection';
 import textSection from './objects/textSection';
 import mainTextSection from './objects/mainTextSection';
+
 
 
 // Then we give our schema to the builder and provide the result to Sanity
@@ -54,6 +56,7 @@ export default createSchema({
     blockContent,
 
     cta,
+    inlineImage,
     embedHTML,
     figure,
     hero,
