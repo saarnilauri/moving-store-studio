@@ -1,10 +1,10 @@
-import {BiBook} from 'react-icons/bi';
+import {IoMdFolder} from 'react-icons/io';
 
 export default {
-  name: 'book',
-  title: 'Book',
+  name: 'group',
+  title: 'Group',
   type: 'document',
-  icon: BiBook,
+  icon: IoMdFolder,
   fields: [
     {
       name: 'title',

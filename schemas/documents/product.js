@@ -1,10 +1,10 @@
-import {GrDocumentText} from 'react-icons/gr';
+import {FaFileAlt} from 'react-icons/fa';
 
 export default {
-  name: 'lesson',
-  title: 'Lesson',
+  name: 'product',
+  title: 'Product',
   type: 'document',
-  icon: GrDocumentText,
+  icon: FaFileAlt,
   fields: [
     {
       name: 'title',
@@ -12,10 +12,10 @@ export default {
       type: 'string',
     },
     {
-      name: 'book',
-      title: 'Book',
+      name: 'group',
+      title: 'Group',
       type: 'reference',
-      to: [{type: 'book'}],
+      to: [{type: 'group'}],
     },
     {
       name: 'slug',

@@ -1,11 +1,11 @@
 {
   "root": true,
-  "project": {
-    "name": "AGC CM"
-  },
   "api": {
-    "projectId": "be9hrejb",
+    "projectId": "1gqcyowl",
     "dataset": "production"
+  },
+  "project": {
+    "name": "Moving sale CM"
   },
   "plugins": [
     "@sanity/base",

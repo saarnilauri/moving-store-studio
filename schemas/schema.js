@@ -8,7 +8,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 import page from './documents/page';
 import post from './documents/post'
 import route from './documents/route';
-import lesson from './documents/lesson';
+import product from './documents/product';
 import siteConfig from './documents/siteConfig';
 
 
@@ -26,7 +26,7 @@ import simplePortableText from './objects/simplePortableText';
 import blockContent from './objects/blockContent'
 import category from './objects/category'
 import author from './objects/author'
-import book from './objects/book'
+import group from './objects/group'
 import logo from './objects/logo'
 
 // Landing page sections
@@ -47,10 +47,10 @@ export default createSchema({
     // The following are document types which will appear
     // in the studio.
     post,
-    book,
+    group,
     author,
     category,
-    lesson,
+    product,
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
     blockContent,
