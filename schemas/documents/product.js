@@ -12,12 +12,6 @@ export default {
       type: 'string',
     },
     {
-      name: 'group',
-      title: 'Group',
-      type: 'reference',
-      to: [{type: 'group'}],
-    },
-    {
       name: 'slug',
       title: 'Slug',
       type: 'slug',
@@ -25,7 +19,17 @@ export default {
         source: 'title',
         maxLength: 96,
       },
-      
+    },
+    {
+      title: 'Price',
+      name: 'price',
+      type: 'number'
+    },
+    {
+      name: 'group',
+      title: 'Group',
+      type: 'reference',
+      to: [{type: 'group'}],
     },
     {
       title: 'Order number',
@@ -52,6 +56,22 @@ export default {
       type: 'blockContent',
     },
     {
+      name: 'sold',
+      title: 'Sold already',
+      type: 'boolean',
+      initialValue: 'false',
+    },
+    {
+      name: 'fbUrl',
+      title: 'Facebook url',
+      type: 'url',
+    },
+    {
+      title: 'Price on Ebay',
+      name: 'ebayPrice',
+      type: 'number'
+    },
+    {
       name: 'videos',
       title: 'Videos',
       type: 'array',
@@ -59,6 +79,7 @@ export default {
         { type: 'youtube' },
       ],
     },
+
   ],
 
   preview: {
