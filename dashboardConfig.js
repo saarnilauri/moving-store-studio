@@ -6,11 +6,11 @@ export default {
           title: 'Deployment',
           sites: [
             {
-              title: 'www.agc-cm.com',
-              apiId: 'acda5123-9dfb-4be7-92da-31e5e18f5353',
-              buildHookId: '60a372d12e1adcb988a831f8',
-              name: 'vigorous-nightingale-293448',
-              url: 'https://agc-cm.com',
+              title: 'saarnimovingsale.com/',
+              apiId: '3f3c47b3-9b6b-486c-ad81-e51d6edb1a7f',
+              buildHookId: '626e5370f0345b30972c5d4d',
+              name: 'saarnimovingsale',
+              url: 'https://saarnimovingsale.com/',
             }
           ]
         }
