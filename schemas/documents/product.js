@@ -59,7 +59,7 @@ export default {
       name: 'sold',
       title: 'Sold already',
       type: 'boolean',
-      initialValue: 'false',
+      initialValue: false,
     },
     {
       name: 'fbUrl',
