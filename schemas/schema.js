@@ -71,7 +71,7 @@ export default createSchema({
     mainTextSection,
     textSection,
     youtube,
-    logo
+    logo,
 
   ]),
 })

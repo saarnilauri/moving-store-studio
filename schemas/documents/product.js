@@ -51,6 +51,12 @@ export default {
       of: [{type: 'reference', to: {type: 'category'}}],
     },
     {
+      name: 'slides',
+      title: 'Slides',
+      type: 'array',
+      of: [{type: 'cloudinary.asset'}],
+    },
+    {
       name: 'body',
       title: 'Body',
       type: 'blockContent',

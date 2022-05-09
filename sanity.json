@@ -16,7 +16,8 @@
     "@sanity/dashboard",
     "dashboard-widget-netlify",
     "color-list",
-    "media-library"
+    "media-library",
+    "cloudinary"
   ],
   "env": {
     "development": {
