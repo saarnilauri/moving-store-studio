@@ -51,10 +51,10 @@ export default {
       of: [{type: 'reference', to: {type: 'category'}}],
     },
     {
-      name: 'slides',
-      title: 'Slides',
+      name: 'altImages',
+      title: 'Alternative images',
       type: 'array',
-      of: [{type: 'cloudinary.asset'}],
+      of: [{type: 'image'}],
     },
     {
       name: 'body',
