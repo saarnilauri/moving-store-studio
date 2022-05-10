@@ -68,6 +68,11 @@ export default {
       initialValue: false,
     },
     {
+      name: 'deliveryDate',
+      title: 'Delivery date',
+      type: 'date',
+    },
+    {
       name: 'fbUrl',
       title: 'Facebook url',
       type: 'url',
