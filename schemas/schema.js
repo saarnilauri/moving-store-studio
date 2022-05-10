@@ -29,6 +29,8 @@ import author from './objects/author'
 import group from './objects/group'
 import logo from './objects/logo'
 
+import customer from './objects/customer'
+
 // Landing page sections
 import hero from './objects/hero';
 import imageSection from './objects/imageSection';
@@ -54,7 +56,7 @@ export default createSchema({
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
     blockContent,
-
+    customer,
     cta,
     inlineImage,
     embedHTML,

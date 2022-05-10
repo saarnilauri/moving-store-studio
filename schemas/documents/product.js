@@ -86,6 +86,15 @@ export default {
       ],
     },
 
+    {
+      name: 'customers',
+      title: 'Customers',
+      type: 'array',
+      of: [
+        { type: 'customer' },
+      ],
+    },
+
   ],
 
   preview: {
