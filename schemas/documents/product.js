@@ -62,6 +62,12 @@ export default {
       type: 'blockContent',
     },
     {
+      name: 'promo',
+      title: 'Promote on front page',
+      type: 'boolean',
+      initialValue: false,
+    },
+    {
       name: 'sold',
       title: 'Sold already',
       type: 'boolean',
