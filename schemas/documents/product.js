@@ -26,6 +26,11 @@ export default {
       type: 'number'
     },
     {
+      title: 'Sale price',
+      name: 'salePrice',
+      type: 'number'
+    },
+    {
       name: 'group',
       title: 'Group',
       type: 'reference',
@@ -72,6 +77,11 @@ export default {
       title: 'Sold already',
       type: 'boolean',
       initialValue: false,
+    },
+    {
+      title: 'Sold price',
+      name: 'soldPrice',
+      type: 'number'
     },
     {
       name: 'deliveryDate',

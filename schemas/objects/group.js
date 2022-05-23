@@ -21,6 +21,11 @@ export default {
       },
     },
     {
+      title: 'Sale percentage',
+      name: 'salePercentage',
+      type: 'number'
+    },
+    {
       name: 'description',
       title: 'Description',
       type: 'text',
